@@ -38,12 +38,12 @@ public class SoreThroat extends JFrame implements ActionListener {
         panel.setLayout(new GridLayout(1, 2));
         panel.add(panpyrin = new JButton("판피린"));
         panpyrin.setForeground(Color.black);
-        panpyrin.setBackground(new Color(150,252,177));
+        panpyrin.setBackground(new Color(221, 221, 255));
         panpyrin.setFont(new Font("굴림",Font.BOLD,20));
         panpyrin.addActionListener(this);
         panel.add(pancoldA = new JButton("판콜에이"));
         pancoldA.setForeground(Color.black);
-        pancoldA.setBackground(new Color(150,252,177));
+        pancoldA.setBackground(new Color(221, 221, 255));
         pancoldA.setFont(new Font("굴림",Font.BOLD,20));
         pancoldA.addActionListener(this);
         panel.add(home = new JButton("홈"));

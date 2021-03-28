@@ -38,22 +38,22 @@ public class Headache extends JFrame implements ActionListener {
         panel.setLayout(new GridLayout(1, 2)); //1행 2열로 구성된 레이아웃을 작성
         panel.add(tylenol = new JButton("타이레놀"));
         tylenol.setForeground(Color.black);
-        tylenol.setBackground(new Color(150,252,177));
+        tylenol.setBackground(new Color(221, 221, 255));
         tylenol.setFont(new Font("굴림",Font.BOLD,20));
         tylenol.addActionListener(this); //tylenol 객체에 ActionListener를 추가
         panel.add(brufen = new JButton("부루펜"));
         brufen.setForeground(Color.black);
-        brufen.setBackground(new Color(150,252,177));
+        brufen.setBackground(new Color(221, 221, 255));
         brufen.setFont(new Font("굴림",Font.BOLD,20));
         brufen.addActionListener(this);
         panel.add(panpyrin = new JButton("판피린"));
         panpyrin.setForeground(Color.black);
-        panpyrin.setBackground(new Color(150,252,177));
+        panpyrin.setBackground(new Color(221, 221, 255));
         panpyrin.setFont(new Font("굴림",Font.BOLD,20));
         panpyrin.addActionListener(this);
         panel.add(pancoldA = new JButton("판콜에이"));
         pancoldA.setForeground(Color.black);
-        pancoldA.setBackground(new Color(150,252,177));
+        pancoldA.setBackground(new Color(221, 221, 255));
         pancoldA.setFont(new Font("굴림",Font.BOLD,20));
         pancoldA.addActionListener(this);
         panel.add(home = new JButton("홈"));

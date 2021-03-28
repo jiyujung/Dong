@@ -19,14 +19,14 @@ public class DrugInfor extends JFrame{
 	setLocationRelativeTo(null);
 	setResizable(false);
 	Container cp = getContentPane();
-	cp.setBackground(new Color(184,211,144));
+	cp.setBackground(new Color(143, 206, 255));
 	cp.setLayout(null);
 	
 	JButton headache = new JButton("µÎÅë");
 	headache.setLocation(280,50);
 	headache.setSize(200,80);
 	headache.setForeground(Color.black);
-	headache.setBackground(new Color(150,252,177));
+	headache.setBackground(new Color(221, 221, 255));
 	headache.setFont(new Font("±¼¸²",Font.BOLD,28));
 	cp.add(headache);
 	headache.addActionListener(new ActionListener() {
@@ -40,7 +40,7 @@ public class DrugInfor extends JFrame{
 	stomachache.setLocation(630,50);
 	stomachache.setSize(200,80);
 	stomachache.setForeground(Color.black);
-	stomachache.setBackground(new Color(150,252,177));
+	stomachache.setBackground(new Color(221, 221, 255));
 	stomachache.setFont(new Font("±¼¸²",Font.BOLD,28));
 	cp.add(stomachache);
 	stomachache.addActionListener(new ActionListener() {
@@ -54,7 +54,7 @@ public class DrugInfor extends JFrame{
 	acheAllOver.setLocation(120,230);
 	acheAllOver.setSize(200,80);
 	acheAllOver.setForeground(Color.black);
-	acheAllOver.setBackground(new Color(150,252,177));
+	acheAllOver.setBackground(new Color(221, 221, 255));
 	acheAllOver.setFont(new Font("±¼¸²",Font.BOLD,28));
 	cp.add(acheAllOver);
 	acheAllOver.addActionListener(new ActionListener() {
@@ -68,7 +68,7 @@ public class DrugInfor extends JFrame{
 	menstrualPain.setLocation(450,230);
 	menstrualPain.setSize(200,80);
 	menstrualPain.setForeground(Color.black);
-	menstrualPain.setBackground(new Color(150,252,177));
+	menstrualPain.setBackground(new Color(221, 221, 255));
 	menstrualPain.setFont(new Font("±¼¸²",Font.BOLD,28));
 	cp.add(menstrualPain);
 	menstrualPain.addActionListener(new ActionListener() {
@@ -82,7 +82,7 @@ public class DrugInfor extends JFrame{
 	soreThroat.setLocation(790,230);
 	soreThroat.setSize(200,80);
 	soreThroat.setForeground(Color.black);
-	soreThroat.setBackground(new Color(150,252,177));
+	soreThroat.setBackground(new Color(221, 221, 255));
 	soreThroat.setFont(new Font("±¼¸²",Font.BOLD,28));
 	cp.add(soreThroat);
 	soreThroat.addActionListener(new ActionListener() {
@@ -103,7 +103,7 @@ public class DrugInfor extends JFrame{
 	drug.setLocation(300, 400);
 	//drug.setForeground(Color.BLUE);   //±ÛÀÚ»ö
 	drug.setOpaque(true); // ¹è°æ»ö ¹Ù²Ù±â À§ÇØ true·Î ¼³Á¤
-    drug.setBackground(new Color(184,211,144));
+    drug.setBackground(new Color(143, 206, 255));
 	drug.setSize(450, 80);
 	cp.add(drug);
 	
@@ -111,7 +111,7 @@ public class DrugInfor extends JFrame{
 	home.setLocation(950,650);
 	home.setSize(120,40);
 	home.setForeground(Color.black);
-	home.setBackground(new Color(150,252,177));
+	home.setBackground(new Color(221, 221, 255));
 	home.setFont(new Font("±¼¸²",Font.BOLD,20));
 	cp.add(home);
 	home.addActionListener(new ActionListener() {
@@ -125,7 +125,7 @@ public class DrugInfor extends JFrame{
 	back.setLocation(950,700);
 	back.setSize(120,40);
 	back.setForeground(Color.black);
-	back.setBackground(new Color(150,252,177));
+	back.setBackground(new Color(221, 221, 255));
 	back.setFont(new Font("±¼¸²",Font.BOLD,20));
 	cp.add(back);
 	back.addActionListener(new ActionListener() {

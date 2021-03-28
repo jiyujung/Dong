@@ -31,14 +31,14 @@ public class MyInfor1  extends JFrame{
 		setResizable(false);
 		setVisible(true);
 		Container cp = getContentPane();
-		cp.setBackground(new Color(184,211,144));
+		cp.setBackground(new Color(143, 206, 255));
 		cp.setLayout(null);
 		
 		JButton home = new JButton("È¨");
 		home.setLocation(950,650);
 		home.setSize(120,40);
 		home.setForeground(Color.black);
-		home.setBackground(new Color(150,252,177));
+		home.setBackground(new Color(221, 221, 255));
 		home.setFont(new Font("±¼¸²",Font.BOLD,20));
 		cp.add(home);
 		home.addActionListener(new ActionListener() {
@@ -52,7 +52,7 @@ public class MyInfor1  extends JFrame{
 		back.setLocation(950,700);
 		back.setSize(120,40);
 		back.setForeground(Color.black);
-		back.setBackground(new Color(150,252,177));
+		back.setBackground(new Color(221, 221, 255));
 		back.setFont(new Font("±¼¸²",Font.BOLD,20));
 		cp.add(back);
 		back.addActionListener(new ActionListener() {
@@ -131,7 +131,7 @@ public class MyInfor1  extends JFrame{
 		submitBt.setSize(80, 50);
 		submitBt.setLocation(870, 60);
 		submitBt.setForeground(Color.black);
-		submitBt.setBackground(new Color(150,252,177));
+		submitBt.setBackground(new Color(221, 221, 255));
 		submitBt.setFont(new Font("±¼¸²",Font.BOLD,20));
 		add(submitBt);
 		
@@ -139,7 +139,7 @@ public class MyInfor1  extends JFrame{
 		deleteBt.setSize(90, 50);
 		deleteBt.setLocation(980, 60);
 		deleteBt.setForeground(Color.black);
-		deleteBt.setBackground(new Color(150,252,177));
+		deleteBt.setBackground(new Color(221, 221, 255));
 		deleteBt.setFont(new Font("±¼¸²",Font.BOLD,20));
 		add(deleteBt);
 		deleteBt.addActionListener(new ActionListener() {

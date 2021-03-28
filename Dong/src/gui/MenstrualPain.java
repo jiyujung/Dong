@@ -38,12 +38,12 @@ public class MenstrualPain extends JFrame implements ActionListener {
         panel.setLayout(new GridLayout(1, 2));
         panel.add(tylenol = new JButton("≈∏¿Ã∑π≥Ó"));
         tylenol.setForeground(Color.black);
-        tylenol.setBackground(new Color(150,252,177));
+        tylenol.setBackground(new Color(221, 221, 255));
         tylenol.setFont(new Font("±º∏≤",Font.BOLD,20));
         tylenol.addActionListener(this);
         panel.add(brufen = new JButton("∫Œ∑Á∆Ê"));
         brufen.setForeground(Color.black);
-        brufen.setBackground(new Color(150,252,177));
+        brufen.setBackground(new Color(221, 221, 255));
         brufen.setFont(new Font("±º∏≤",Font.BOLD,20));
         brufen.addActionListener(this);
         panel.add(home = new JButton("»®"));

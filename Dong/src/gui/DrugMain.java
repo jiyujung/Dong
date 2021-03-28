@@ -23,7 +23,7 @@ public class DrugMain extends JFrame{
 		setLocationRelativeTo(null); //창 가운데 띄우기
 		setResizable(false); // 창의 크기를 조절할 수 없게
 		Container cp = getContentPane(); //특정 기능을 하는 제품 및 자제들을 담아주는 역할
-		cp.setBackground(new Color(184,211,144)); //컨테이너의 배경색 설정
+		cp.setBackground(new Color(143, 206, 255)); //컨테이너의 배경색 설정
 		cp.setLayout(null); //컨테이너의 배치관리자 제거
 		
 		JLabel drug = new JLabel("동그리 약국에 오신 것을 환영합니다!"); //라벨 생성
@@ -42,7 +42,7 @@ public class DrugMain extends JFrame{
 		info.setLocation(820,400);
 		info.setSize(200,80);
 		info.setForeground(Color.black); //글씨색 설정
-		info.setBackground(new Color(150,252,177));
+		info.setBackground(new Color(221, 221, 255));
 		info.setFont(new Font("굴림",Font.BOLD,28));
 		cp.add(info);
 		info.addActionListener(new ActionListener() { // 이벤트 리스너를 등록
@@ -56,7 +56,7 @@ public class DrugMain extends JFrame{
 		myinfo.setLocation(820,510);
 		myinfo.setSize(200,80);
 		myinfo.setForeground(Color.black);
-		myinfo.setBackground(new Color(150,252,177));
+		myinfo.setBackground(new Color(221, 221, 255));
 		myinfo.setFont(new Font("굴림",Font.BOLD,28));
 		cp.add(myinfo);
 		myinfo.addActionListener(new ActionListener() {
@@ -70,7 +70,7 @@ public class DrugMain extends JFrame{
 		end.setLocation(820,620);
 		end.setSize(200,80);
 		end.setForeground(Color.black);
-		end.setBackground(new Color(150,252,177));
+		end.setBackground(new Color(221, 221, 255));
 		end.setFont(new Font("굴림",Font.BOLD,28));
 		end.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
