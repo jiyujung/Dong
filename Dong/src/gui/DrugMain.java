@@ -17,7 +17,7 @@ public class DrugMain extends JFrame{
 	  설정이 false로 되어있기 때문.
 	 그러므로 창을 보여주기 위한 메소드를 호출해 줘야 창을 볼 수 있음.*/
 	DrugMain() {
-		setSize(1100, 800); //창의 가로와 세로 길이르 설정
+		setSize(1100, 800); //창의 가로와 세로 길이를 설정
 		setTitle("동그리"); //창의 타이틀바의 내용을 설정
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //윈도우창 완벽히 닫기
 		setLocationRelativeTo(null); //창 가운데 띄우기
